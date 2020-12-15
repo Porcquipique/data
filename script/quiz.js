@@ -86,5 +86,9 @@ function testQ(value, value2, value3, value4, value5) {
   if (value5 == 3) {
     i += 1;
   }
-  result.textContent = "Votre score est de" + i;
+if(i > 4)  {   result.textContent = "AU TOP ! Votre note est de " + i ; }
+       else if(i > 3)  {  result.textContent = "Tres bien !  Votre note est de " + i; }
+       else if(i > 2)  {  result.textContent = "Bien !  Votre note est de " + i; }
+       else if(i > 1)  {   result.textContent = "Peut mieux faire ! Votre note est de  " + i ; }
+       else {  result.textContent = "A revoir ! Votre note est de " + i; }
 }
