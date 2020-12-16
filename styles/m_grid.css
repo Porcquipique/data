@@ -1,0 +1,37 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+/*Image formation : L 1 | C 2 -> 2  */
+section > article:nth-last-of-type(1) {
+    display: grid;
+    grid-column: 2 / span 3;
+    grid-row: 2;
+}
+
+/*Texte formation : L 1 | C -> 3 */
+section > article:nth-last-of-type(2) {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+/*Texte Compétence : L 2 | C 2  */
+section > article:nth-last-of-type(3) {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+/*Texte Missions : L 2 | C -> 3  */
+section > article:nth-last-of-type(4) {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
