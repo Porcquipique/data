@@ -1,18 +1,27 @@
 *{
+    margin : 0;
     box-sizing: border-box;
+}
+
+header > a> img{
+    width: 10%;
+    height: 10%;
 }
 
 /* Background + Image probable */
 body{
-    background-color: hsl(219, 68%, 19%);
+    background-color: hsl(219, 68%, 19%);   
 }
 
 /* élément footer */
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     text-align: right;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 12px;   
 }
 
 footer>p{
@@ -21,5 +30,5 @@ footer>p{
 
 footer>img{
     width: 60px;
-    height: 60px;   
+    height: 60px;
 }
