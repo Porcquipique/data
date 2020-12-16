@@ -1,37 +1,51 @@
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
 
-/*Image formation : L 1 | C 2 -> 2  */
-section > article:nth-last-of-type(1) {
-    display: grid;
-    grid-column: 2 / span 3;
-    grid-row: 2;
+/*Image logo formation : L 2 -> 2 | C 2 */
+article:first-child {
+    grid-column: 2;
+    grid-row: 1 / span 2;
 }
 
-/*Texte formation : L 1 | C -> 3 */
-section > article:nth-last-of-type(2) {
-    display: grid;
+/*Texte formation : L 2 -> 3 | C 1 */
+article:nth-child(2) {
     grid-column-start: 1;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row: 2 / span 3;
 }
 
-/*Texte Compétence : L 2 | C 2  */
-section > article:nth-last-of-type(3) {
-    display: grid;
+/*Texte Compétence : L 4 | C 2  */
+article:nth-child(3) {
     grid-column-start: 2;
     grid-row-start: 4;
 }
 
-/*Texte Missions : L 2 | C -> 3  */
-section > article:nth-last-of-type(4) {
-    display: grid;
+/*Texte Missions L 2 -> 3 | C 3 */
+article:nth-child(4) {
     grid-column-start: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row: 2 / span 3;
+}
+
+/*===================== Autre ====================*/
+
+/*Texte Role : L 6 -> 3 | C 1  */
+article:nth-child(5) {
+    grid-column-start: 1;
+    grid-row: 6 / span 3;
+}
+
+/*Texte Salaire : L 7 -> 3 | C 1  */
+article:nth-child(6) {
+    grid-column-start: 1;
+    grid-row: 7 / span 3;
+}
+
+/*Texte Localisation : L 8 -> 3 | C 1  */
+article:nth-child(7) {
+    grid-column-start: 1;
+    grid-row: 8 / span 3;
 }
