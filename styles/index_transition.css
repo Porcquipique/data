@@ -15,7 +15,6 @@ body > main > article:first-child > a> img{
     height: 200px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     background-color: grey;
-    border
 }
 
 /* Réglage de la Transition et de son opacité */

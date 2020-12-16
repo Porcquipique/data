@@ -1,0 +1,9 @@
+body > section {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+
+section > article:first-of-type {
+
+}
