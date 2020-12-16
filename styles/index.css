@@ -1,0 +1,41 @@
+body>main>article{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;   
+}
+
+body>main>article>img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+body>main>article>div{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color:red;
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+body>main>article:hover > div{
+    opacity: 1;
+}
+
+body>main>article>p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%;-50%);
+    font-size: 20px;
+}
+
+body>main>article:hover > div{
+    width: 100%;
+}
