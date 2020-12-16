@@ -1,0 +1,328 @@
+/* ------------------------------------------------------- Article 1 --------------------------------------------------------- */
+/* Position, Taille de l'article */
+body > main > article{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;   
+}
+
+/* Réglage de l'image */
+body > main > article:first-child > a> img{
+    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+/* Réglage de la Transition et de son opacité */
+body > main > article:first-child > div{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: hsla(219, 30%, 50%, 0.5);
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Opacity du texte*/
+body > main > article:first-child:hover > div{
+    opacity: 1;
+}
+
+/* Position, Taille du texte */
+body > main  > article:first-child > div >p{
+    /* Couleur à rechoisir en fonction du background et de l'image */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;   
+    font-size: 20px;
+}
+
+
+
+/* ------------------------------------------------------- Article 2 --------------------------------------------------------- */
+/* Position, Taille de l'article */
+body > main > article{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;   
+}
+
+/* Réglage de l'image */
+body > main > article:nth-child(2) > a> img{
+    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+/* Réglage de la Transition et de son opacité */
+body > main > article:nth-child(2) > div{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: hsla(219, 30%, 50%, 0.5);
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Opacity du texte*/
+body > main > article:nth-child(2):hover > div{
+    opacity: 1;
+}
+
+/* Position, Taille du texte */
+body > main  > article:nth-child(2) > div >p{
+    /* Couleur à rechoisir en fonction du background et de l'image */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;   
+    font-size: 20px;
+}
+
+
+/* ------------------------------------------------------- Article 3 --------------------------------------------------------- */
+/* Position, Taille de l'article */
+body > main > article{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;   
+}
+
+/* Réglage de l'image */
+body > main > article:nth-child(3) > a> img{
+    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+/* Réglage de la Transition et de son opacité */
+body > main > article:nth-child(3) > div{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: hsla(219, 30%, 50%, 0.5);
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Opacity du texte*/
+body > main > article:nth-child(3):hover > div{
+    opacity: 1;
+}
+
+/* Position, Taille du texte */
+body > main  > article:nth-child(3) > div >p{
+    /* Couleur à rechoisir en fonction du background et de l'image */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;   
+    font-size: 20px;
+}
+
+
+/* ------------------------------------------------------- Article 4 --------------------------------------------------------- */
+/* Position, Taille de l'article */
+body > main > article{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;   
+}
+
+/* Réglage de l'image */
+body > main > article:nth-child(4) > a> img{
+    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+/* Réglage de la Transition et de son opacité */
+body > main > article:nth-child(4) > div{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: hsla(219, 30%, 50%, 0.5);
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Opacity du texte*/
+body > main > article:nth-child(4):hover > div{
+    opacity: 1;
+}
+
+/* Position, Taille du texte */
+body > main  > article:nth-child(4) > div >p{
+    /* Couleur à rechoisir en fonction du background et de l'image */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;   
+    font-size: 20px;
+}
+
+
+/* ------------------------------------------------------- Article 5 --------------------------------------------------------- */
+/* Position, Taille de l'article */
+body > main > article{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;   
+}
+
+/* Réglage de l'image */
+body > main > article:nth-child(5) > a> img{
+    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+/* Réglage de la Transition et de son opacité */
+body > main > article:nth-child(5) > div{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: hsla(219, 30%, 50%, 0.5);
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Opacity du texte*/
+body > main > article:nth-child(5):hover > div{
+    opacity: 1;
+}
+
+/* Position, Taille du texte */
+body > main  > article:nth-child(5) > div >p{
+    /* Couleur à rechoisir en fonction du background et de l'image */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;   
+    font-size: 20px;
+}
+
+
+/* ------------------------------------------------------- Article 6 --------------------------------------------------------- */
+/* Position, Taille de l'article */
+body > main > article{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;   
+}
+
+/* Réglage de l'image */
+body > main > article:nth-child(6) > a> img{
+    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+/* Réglage de la Transition et de son opacité */
+body > main > article:nth-child(6) > div{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: hsla(219, 30%, 50%, 0.5);
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Opacity du texte*/
+body > main > article:nth-child(6):hover > div{
+    opacity: 1;
+}
+
+/* Position, Taille du texte */
+body > main  > article:nth-child(6) > div >p{
+    /* Couleur à rechoisir en fonction du background et de l'image */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;   
+    font-size: 20px;
+}
+
+
+/* ------------------------------------------------------- Article 7 --------------------------------------------------------- */
+/* Position, Taille de l'article */
+body > main > article{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;   
+}
+
+/* Réglage de l'image */
+body > main > article:nth-child(7) > a> img{
+    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+/* Réglage de la Transition et de son opacité */
+body > main > article:nth-child(7) > div{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: hsla(219, 30%, 50%, 0.5);
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Opacity du texte*/
+body > main > article:nth-child(7):hover > div{
+    opacity: 1;
+}
+
+/* Position, Taille du texte */
+body > main  > article:nth-child(7) > div >p{
+    /* Couleur à rechoisir en fonction du background et de l'image */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;   
+    font-size: 20px;
+}

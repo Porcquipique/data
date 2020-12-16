@@ -2,10 +2,12 @@
     box-sizing: border-box;
 }
 
+/* Background + Image probable */
 body{
     background-color: hsl(219, 68%, 19%);
 }
 
+/* élément footer */
 footer{
     background-color: black;
     text-align: right;
