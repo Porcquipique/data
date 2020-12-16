@@ -37,11 +37,11 @@ body > main > article:first-child:hover > div{
 body > main  > article:first-child > div >h1{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'press_start_2pregular';
     position: absolute;
-    top: 30%;
-    left: 30%;   
-    font-size: 20px;
+    top: 28%;
+    left: 17%;   
+    font-size: 22px;
 }
 
 /* ------------------------------------------------------- Article 2 CDO--------------------------------------------------------- */
@@ -79,9 +79,9 @@ body > main > article:nth-child(2):hover > div{
 body > main  > article:nth-child(2) > div >p{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
+    top: 38%;
     left: 30%;   
     font-size: 20px;
 }
@@ -121,10 +121,10 @@ body > main > article:nth-child(3):hover > div{
 body > main  > article:nth-child(3) > div >p{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 44%;
+    left: 24%;   
     font-size: 20px;
 }
 
@@ -163,10 +163,10 @@ body > main > article:nth-child(4):hover > div{
 body > main  > article:nth-child(4) > div >p{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 43%;
+    left: 22%;   
     font-size: 20px;
 }
 
@@ -205,10 +205,10 @@ body > main > article:nth-child(5):hover > div{
 body > main  > article:nth-child(5) > div >p{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 38%;
+    left: 21%;   
     font-size: 20px;
 }
 
@@ -247,10 +247,10 @@ body > main > article:nth-child(6):hover > div{
 body > main  > article:nth-child(6) > div >p{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
     top: 30%;
-    left: 30%;   
+    left: 31%;   
     font-size: 20px;
 }
 
@@ -289,10 +289,10 @@ body > main > article:nth-child(7):hover > div{
 body > main  > article:nth-child(7) > div >p{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 43%;
+    left: 23%;   
     font-size: 20px;
 }
 
@@ -331,9 +331,9 @@ body > main > article:nth-child(8):hover > div{
 body > main  > article:nth-child(8) > div >p{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 42%;
+    left: 39%;   
     font-size: 20px;
 }

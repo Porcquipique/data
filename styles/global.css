@@ -11,7 +11,7 @@ header > a> img{
 /* Background + Image probable */
 body{
     /* Mettre l'url du background */
-    background: url();
+    background: url(../medias/images/essaie\ 2\ background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -31,7 +31,14 @@ footer>p{
     color:white ;
 }
 
-footer>img{
+footer>a>img{
     width: 60px;
     height: 60px;
+}
+@font-face{
+    font-family: 'press_start_2pregular';
+    src: url('../fonts/pressstart2p-webfont.woff2') format('woff2'),
+         url('../fonts/pressstart2p-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
