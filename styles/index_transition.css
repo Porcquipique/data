@@ -46,18 +46,13 @@ body > main  > article:first-child > div >h1{
 
 /* ------------------------------------------------------- Article 2 CDO--------------------------------------------------------- */
 
+
 /* Réglage de l'image */
-body > main > article:nth-child(2) > a> img{
+body > main > article:nth-child(2) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
     height: 200px;
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-}
-
-body > main > article:nth-child(2) > a{
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
-    display: block;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
@@ -82,20 +77,20 @@ body > main > article:nth-child(2):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(2) > div >p{
+body > main  > article:nth-child(2) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
-    top: 38%;
-    left: 30%;   
+    top: 44%;
+    left: 24%;   
     font-size: 20px;
 }
 
 /* ------------------------------------------------------- Article 3 DE--------------------------------------------------------- */
 
 /* Réglage de l'image */
-body > main > article:nth-child(3) > a> img{
+body > main > article:nth-child(3) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -124,7 +119,7 @@ body > main > article:nth-child(3):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(3) > div >p{
+body > main  > article:nth-child(3) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -137,7 +132,7 @@ body > main  > article:nth-child(3) > div >p{
 /* ------------------------------------------------------- Article 4 DM--------------------------------------------------------- */
 
 /* Réglage de l'image */
-body > main > article:nth-child(4) > a> img{
+body > main > article:nth-child(4) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -166,7 +161,7 @@ body > main > article:nth-child(4):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(4) > div >p{
+body > main  > article:nth-child(4) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -179,7 +174,7 @@ body > main  > article:nth-child(4) > div >p{
 /* ------------------------------------------------------- Article 5 DPO--------------------------------------------------------- */
 
 /* Réglage de l'image */
-body > main > article:nth-child(5) > a> img{
+body > main > article:nth-child(5) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -208,7 +203,7 @@ body > main > article:nth-child(5):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(5) > div >p{
+body > main  > article:nth-child(5) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -221,7 +216,7 @@ body > main  > article:nth-child(5) > div >p{
 /* ------------------------------------------------------- Article 6 MLE--------------------------------------------------------- */
 
 /* Réglage de l'image */
-body > main > article:nth-child(6) > a> img{
+body > main > article:nth-child(6) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -250,7 +245,7 @@ body > main > article:nth-child(6):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(6) > div >p{
+body > main  > article:nth-child(6) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -263,7 +258,7 @@ body > main  > article:nth-child(6) > div >p{
 /* ------------------------------------------------------- Article 7 DE--------------------------------------------------------- */
 
 /* Réglage de l'image */
-body > main > article:nth-child(7) > a> img{
+body > main > article:nth-child(7) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -292,7 +287,7 @@ body > main > article:nth-child(7):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(7) > div >p{
+body > main  > article:nth-child(7) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -305,7 +300,7 @@ body > main  > article:nth-child(7) > div >p{
 /* ------------------------------------------------------- Article 8 Quiz--------------------------------------------------------- */
 
 /* Réglage de l'image */
-body > main > article:nth-child(8) > a> img{
+body > main > article:nth-child(8) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -334,7 +329,7 @@ body > main > article:nth-child(8):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(8) > div >p{
+body > main  > article:nth-child(8) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
