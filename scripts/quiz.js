@@ -1,3 +1,5 @@
+/*---------------Les bébés contiennent 75% d'eau à la naissance. Une banane à 74% d'eau...........---------------*/
+
 /* Initialisation Question  */
 let Q1s = document.getElementsByName("Q1");
 let Q2s = document.getElementsByName("Q2");

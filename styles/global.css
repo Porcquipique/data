@@ -1,13 +1,15 @@
+/*------------------------------------Le saviez-vous ? Les homards goûtent avec leur pattes ?-----------------------------------------------*/
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Besoin d'un Header ???? */
+/* Besoin d'un Header apprarent ???? */
 /*header {
     background-color: hsla(219, 68%, 19%, 0.4);
-}
-*/
+}*/
+
 
 
 header>a>img {

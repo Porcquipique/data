@@ -1,12 +1,10 @@
-/* ------------------------------------------------------- Article 1 skyblue--------------------------------------------------------- */
-
+/* ------------------------------------------------------- Article 1 Skyblue--------------------------------------------------------- */
 body>main>article:first-child {
     position: relative;
     display: inline-block;
     width: 180px;
     height: 180px;
 }
-
 
 /* Réglage de l'image */
 body>main>article:first-child>img {
