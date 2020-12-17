@@ -52,8 +52,9 @@ body > main > article:nth-child(2) {
     height: 200px;
 }
 
+
 /* Réglage de l'image */
-body > main > article:nth-child(2) > a> img{
+body > main > article:nth-child(2) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -82,13 +83,13 @@ body > main > article:nth-child(2):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(2) > div >p{
+body > main  > article:nth-child(2) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
-    top: 38%;
-    left: 30%;   
+    top: 44%;
+    left: 24%;   
     font-size: 20px;
 }
 
@@ -102,7 +103,7 @@ body > main > article:nth-child(3) {
 }
 
 /* Réglage de l'image */
-body > main > article:nth-child(3) > a> img{
+body > main > article:nth-child(3) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -131,7 +132,7 @@ body > main > article:nth-child(3):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(3) > div >p{
+body > main  > article:nth-child(3) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -151,7 +152,7 @@ body > main > article:nth-child(4) {
 }
 
 /* Réglage de l'image */
-body > main > article:nth-child(4) > a> img{
+body > main > article:nth-child(4) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -180,7 +181,7 @@ body > main > article:nth-child(4):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(4) > div >p{
+body > main  > article:nth-child(4) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -201,7 +202,7 @@ body > main > article:nth-child(5) {
 
 
 /* Réglage de l'image */
-body > main > article:nth-child(5) > a> img{
+body > main > article:nth-child(5) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -230,7 +231,7 @@ body > main > article:nth-child(5):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(5) > div >p{
+body > main  > article:nth-child(5) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -250,7 +251,7 @@ body > main > article:nth-child(6) {
 }
 
 /* Réglage de l'image */
-body > main > article:nth-child(6) > a> img{
+body > main > article:nth-child(6) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -279,7 +280,7 @@ body > main > article:nth-child(6):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(6) > div >p{
+body > main  > article:nth-child(6) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -300,7 +301,7 @@ body > main > article:nth-child(7) {
 
 
 /* Réglage de l'image */
-body > main > article:nth-child(7) > a> img{
+body > main > article:nth-child(7) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -329,7 +330,7 @@ body > main > article:nth-child(7):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(7) > div >p{
+body > main  > article:nth-child(7) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
@@ -350,7 +351,7 @@ body > main > article:nth-child(8) {
 
 
 /* Réglage de l'image */
-body > main > article:nth-child(8) > a> img{
+body > main > article:nth-child(8) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 200px;
@@ -379,7 +380,7 @@ body > main > article:nth-child(8):hover > div{
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(8) > div >p{
+body > main  > article:nth-child(8) > div > a{
     /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
