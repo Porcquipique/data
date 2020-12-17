@@ -1,7 +1,7 @@
 article:nth-child(9)>h1 {
     color: black;
     padding-left: 5%;
-    font-family: ;
+    font-family: 'press_start_2pregular';
 }
 
 article:nth-child(9)>fieldset>legend>h3 {
