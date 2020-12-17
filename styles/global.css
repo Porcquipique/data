@@ -1,33 +1,34 @@
-*{
-    margin : 0;
+* {
+    margin: 0;
     box-sizing: border-box;
 }
 
-header > a> img{
+header>a>img {
     width: 5%;
     height: 5%;
 }
 
 /* élément footer */
-footer{   
+footer {
     background-color: black;
     text-align: right;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;   
+    font-size: 12px;
 }
 
-footer>p{
-    color:white ;
+footer>p {
+    color: white;
 }
 
-footer>a>img{
+footer>a>img {
     width: 60px;
     height: 60px;
 }
-@font-face{
+
+@font-face {
     font-family: 'press_start_2pregular';
-    src: url('../fonts/pressstart2p-webfont.woff2') format('woff2'),
-         url('../fonts/pressstart2p-webfont.woff') format('woff');
+    src: url('../medias/fonts/pressstart2p-webfont.woff2') format('woff2'),
+        url('../medias/fonts/pressstart2p-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
