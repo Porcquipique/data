@@ -52,6 +52,7 @@ body > main > article:nth-child(2) {
     height: 150px;
 }
 
+
 /* Réglage de l'image */
 body > main > article:nth-child(2) > img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
