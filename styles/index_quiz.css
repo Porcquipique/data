@@ -1,5 +1,5 @@
 /* Ajustement du titre */
-article:nth-child(9)>h1 {
+article:last-child>h1 {
     color: rgb(0,170,255);
     padding-left: 5%;
     font-family: 'press_start_2pregular';
@@ -8,19 +8,19 @@ article:nth-child(9)>h1 {
 }
 
 /* Ajustement des Questions */
-article:nth-child(9) > fieldset > legend > h3 {
+article:last-child > fieldset > legend > h3 {
     color: rgb(0,170,255);
     font-family: 'Calibri';
 }
 
 /* Ajustement des Réponses */
-article:nth-child(9) > fieldset>p {
+article:last-child > fieldset>p {
     color: white;
     font-family: 'Calibri';
 }
 
 /* Ajustement du Logo */
-article:nth-child(9) > img {
+article:last-child > img {
     width: 150px;
     height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
@@ -28,17 +28,17 @@ article:nth-child(9) > img {
 }
 
 /* Ajustement des fieldsets */
-article:nth-child(9) > fieldset > legend {
+article:last-child > fieldset > legend {
     text-align: center;
 }
 
 /* Ajustement du Fond */
-article:nth-child(9) {
+article:last-child {
     background-color: hsl(219, 68%, 19%);
 }
 
 /* Ajustement du Résultat */
-article:nth-child(9) > p:last-child {
+article:last-child > p:last-child {
     border: white 2px solid;
     text-align: center;
     font-size: 200%;
@@ -48,7 +48,7 @@ article:nth-child(9) > p:last-child {
 }
 
 /* Ajustement du Bouton */
-article:nth-child(9) > input {
+article:last-child > input {
     margin-top: 5%;
     margin-left: 44%;
     margin-bottom: 5%;
