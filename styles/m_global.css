@@ -25,6 +25,7 @@ h1, h2, h3 {
 p, li {
     text-align: justify;
     color: white;
+    font-family: 'calibri';
 }
 
 a:visited {
