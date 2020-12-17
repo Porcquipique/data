@@ -1,8 +1,7 @@
 body {
     background: url(../medias/images/background/Fiche\ métier\ background.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 10%;
     background-color: hsl(219, 68%, 19%);
 }
 
@@ -10,6 +9,12 @@ body>main>article:first-child {
     width: 150px;
     height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+body>main>article:first-child > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 p, li {
