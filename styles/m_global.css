@@ -17,8 +17,14 @@ body>main>article:first-child > img {
     height: 100%;
 }
 
+h1, h2, h3 {
+    color: hsl(200,100%,50%);
+    font-family: 'press_start_2pregular';
+}
+
 p, li {
     text-align: justify;
+    color: white;
 }
 
 a:visited {

@@ -1,8 +1,8 @@
 main {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    gap: 10px;
+    grid-template-rows: repeat(6, 1fr) auto;
+    gap: 30px;
 }
 
 /*Image logo formation : L 2 -> 2 | C 2 */
@@ -20,7 +20,7 @@ article:nth-child(2) {
 /*Texte Compétence : L 4 | C 2  */
 article:nth-child(3) {
     grid-column-start: 3;
-    grid-row-start: 4;
+    grid-row-start: 3;
 }
 
 /*Texte Missions L 2 -> 3 | C 3 */
@@ -34,19 +34,19 @@ article:nth-child(4) {
 /*Texte Role : L 6 -> 3 | C 1  */
 article:nth-child(5) {
     grid-column: 2 / span 3;
-    grid-row: 6;
+    grid-row: 4;
 }
 
 /*Texte Salaire : L 7 -> 3 | C 1  */
 article:nth-child(6) {
     grid-column: 2 / span 3;
-    grid-row: 7;
+    grid-row: 5;
 }
 
 /*Texte Localisation : L 8 -> 3 | C 1  */
 article:nth-child(7) {
     grid-column: 2 / span 3;
-    grid-row: 8;
+    grid-row: 6;
 }
 
 /*===================== Source ====================*/
@@ -54,5 +54,5 @@ article:nth-child(7) {
 /*Texte Localisation : L 8 -> 3 | C 1  */
 article:nth-child(8) {
     grid-column: 2 / span 3;
-    grid-row: 9;
+    grid-row: 7;
 }
