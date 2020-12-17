@@ -1,3 +1,4 @@
+/* Ajustement du titre */
 article:nth-child(9)>h1 {
     color: rgb(0,170,255);
     padding-left: 5%;
@@ -6,43 +7,47 @@ article:nth-child(9)>h1 {
     margin-bottom: 5%;
 }
 
-article:nth-child(9)>fieldset>legend>h3 {
+/* Ajustement des Questions */
+article:nth-child(9) > fieldset > legend > h3 {
     color: rgb(0,170,255);
     font-family: 'Calibri';
 }
 
-article:nth-child(9)>fieldset>p {
+/* Ajustement des Réponses */
+article:nth-child(9) > fieldset>p {
     color: white;
     font-family: 'Calibri';
 }
 
-article:nth-child(9)>p:last-child {
-    color: white;
-}
-
-article:nth-child(9)>img {
+/* Ajustement du Logo */
+article:nth-child(9) > img {
     width: 150px;
     height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     margin-left: 44%;
 }
 
-article:nth-child(9)>fieldset>legend {
+/* Ajustement des fieldsets */
+article:nth-child(9) > fieldset > legend {
     text-align: center;
 }
 
+/* Ajustement du Fond */
 article:nth-child(9) {
     background-color: hsl(219, 68%, 19%);
 }
 
+/* Ajustement du Résultat */
 article:nth-child(9) > p:last-child {
     border: white 2px solid;
     text-align: center;
     font-size: 200%;
     font-family: 'Calibri';
     margin-bottom: 3%;
+    color: white;
 }
 
+/* Ajustement du Bouton */
 article:nth-child(9) > input {
     margin-top: 5%;
     margin-left: 44%;
