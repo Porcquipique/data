@@ -1,7 +1,7 @@
 main {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
@@ -48,4 +48,12 @@ article:nth-child(6) {
 article:nth-child(7) {
     grid-column: 2 / span 3;
     grid-row: 8;
+}
+
+/*===================== Source ====================*/
+
+/*Texte Localisation : L 8 -> 3 | C 1  */
+article:nth-child(8) {
+    grid-column: 2 / span 3;
+    grid-row: 9;
 }

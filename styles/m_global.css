@@ -5,3 +5,26 @@ body {
     background-position: center;
     background-color: hsl(219, 68%, 19%);
 }
+
+body>main>article:first-child {
+    width: 150px;
+    height: 150px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+p {
+    text-align: justify;
+}
+
+a:visited {
+    color:  hsl(200,100%,50%);
+}
+
+a:hover {
+    color: white;
+}
+
+/* Syle source encadré */
+article:nth-child(8) {
+    border: 1px black solid;
+}
