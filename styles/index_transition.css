@@ -55,6 +55,12 @@ body > main > article:nth-child(2) > a> img{
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
+body > main > article:nth-child(2) > a{
+    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+    display: block;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
 /* Réglage de la Transition et de son opacité */
 body > main > article:nth-child(2) > div{
     position: absolute;
