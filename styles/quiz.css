@@ -23,6 +23,10 @@ article:nth-child(9) > h1 > img{
     vertical-align: middle;
  }
 
- article:nth-child(9) {
+ article:nth-child(9) > h1 {
      text-align: center;
  }
+
+ article:nth-child(9) > fieldset > legend {
+    text-align: center;
+}

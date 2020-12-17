@@ -1,0 +1,8 @@
+body{
+    /* Mettre l'url du background */
+    background: url(../medias/images/essaie\ 2\ background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: hsl(219, 68%, 19%);
+}
