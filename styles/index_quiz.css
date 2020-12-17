@@ -35,6 +35,7 @@ article:last-child > fieldset > legend {
 /* Ajustement du Fond */
 article:last-child {
     background-color: hsl(219, 68%, 19%);
+    
 }
 
 /* Ajustement du Résultat */
