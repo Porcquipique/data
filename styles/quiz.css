@@ -1,21 +1,19 @@
 
-
-h3 {
-    color: white;
+main > article:nth-child(9) > fieldset >  h3 {
+    color: black;
 }
 
-p {
-    color: white;
+main > article:nth-child(9) > fieldset > p {
+    color: black;
 }
-h1{
-    color: white; 
+main > article:nth-child(9) > h1{
+    color: black; 
     padding-left: 5%;
     font-family: ;
 }
- img{
+main > article:nth-child(9) > fieldset > img{
     width: 200px;
     height: 200px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: grey;
     vertical-align: middle;
  }
