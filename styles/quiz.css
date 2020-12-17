@@ -1,19 +1,28 @@
-
-main > article:nth-child(9) > fieldset >  h3 {
-    color: black;
-}
-
-main > article:nth-child(9) > fieldset > p {
-    color: black;
-}
-main > article:nth-child(9) > h1{
+article:nth-child(9) > h1{
     color: black; 
     padding-left: 5%;
     font-family: ;
 }
-main > article:nth-child(9) > fieldset > img{
+
+article:nth-child(9) > fieldset > legend >  h3 {
+    color: black;
+}
+
+article:nth-child(9) > fieldset > p {
+    color: black;
+}
+
+article:nth-child(9) > p:last-child {
+    color: black;
+}
+
+article:nth-child(9) > h1 > img{
     width: 200px;
     height: 200px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     vertical-align: middle;
+ }
+
+ article:nth-child(9) {
+     text-align: center;
  }

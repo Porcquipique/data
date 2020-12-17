@@ -19,8 +19,7 @@ body{
 }
 
 /* élément footer */
-footer{
-    width: 100%;
+footer{   
     background-color: black;
     text-align: right;
     font-family: 'Times New Roman', Times, serif;

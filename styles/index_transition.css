@@ -1,12 +1,12 @@
-/* Position, Taille des articles */
-body > main > article{
+/* ------------------------------------------------------- Article 1 skyblue--------------------------------------------------------- */
+
+body > main > article:first-child {
     position: relative;
+    display: inline-block;
     width: 200px;
     height: 200px;
-    display: inline-block;   
 }
 
-/* ------------------------------------------------------- Article 1 skyblue--------------------------------------------------------- */
 
 /* Réglage de l'image */
 body > main >article:first-child > img{
@@ -45,6 +45,12 @@ body > main  > article:first-child > div >h1{
 }
 
 /* ------------------------------------------------------- Article 2 CDO--------------------------------------------------------- */
+body > main > article:nth-child(2) {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
 
 /* Réglage de l'image */
 body > main > article:nth-child(2) > a> img{
@@ -88,6 +94,13 @@ body > main  > article:nth-child(2) > div >p{
 
 /* ------------------------------------------------------- Article 3 DE--------------------------------------------------------- */
 
+body > main > article:nth-child(3) {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
 /* Réglage de l'image */
 body > main > article:nth-child(3) > a> img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
@@ -129,6 +142,13 @@ body > main  > article:nth-child(3) > div >p{
 }
 
 /* ------------------------------------------------------- Article 4 DM--------------------------------------------------------- */
+
+body > main > article:nth-child(4) {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
 
 /* Réglage de l'image */
 body > main > article:nth-child(4) > a> img{
@@ -172,6 +192,14 @@ body > main  > article:nth-child(4) > div >p{
 
 /* ------------------------------------------------------- Article 5 DPO--------------------------------------------------------- */
 
+body > main > article:nth-child(5) {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+
 /* Réglage de l'image */
 body > main > article:nth-child(5) > a> img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
@@ -213,6 +241,13 @@ body > main  > article:nth-child(5) > div >p{
 }
 
 /* ------------------------------------------------------- Article 6 MLE--------------------------------------------------------- */
+
+body > main > article:nth-child(6) {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
 
 /* Réglage de l'image */
 body > main > article:nth-child(6) > a> img{
@@ -256,6 +291,14 @@ body > main  > article:nth-child(6) > div >p{
 
 /* ------------------------------------------------------- Article 7 DE--------------------------------------------------------- */
 
+body > main > article:nth-child(7) {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+
 /* Réglage de l'image */
 body > main > article:nth-child(7) > a> img{
     /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
@@ -297,6 +340,14 @@ body > main  > article:nth-child(7) > div >p{
 }
 
 /* ------------------------------------------------------- Article 8 Quiz--------------------------------------------------------- */
+
+body > main > article:nth-child(8) {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
 
 /* Réglage de l'image */
 body > main > article:nth-child(8) > a> img{
