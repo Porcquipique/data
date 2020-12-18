@@ -32,12 +32,6 @@ article:last-child > fieldset > legend {
     text-align: center;
 }
 
-/* Ajustement du Fond */
-/*
-article:last-child {
-    background-color: hsl(219, 68%, 19%); 
-}*/
-
 /* Ajustement du Résultat */
 article:last-child > p:last-child {
     border: white 2px solid;

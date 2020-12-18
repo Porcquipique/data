@@ -7,8 +7,7 @@ body>main>article:first-child {
 }
 
 /* Réglage de l'image */
-body>main>article:first-child>img {
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:first-child>img {   
     display: block;
     width: 180px;
     height: 180px;
@@ -33,7 +32,6 @@ body>main>article:first-child:hover>div {
 
 /* Position, Taille du texte */
 body>main>article:first-child>div>h1 {
-    /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'press_start_2pregular';
     position: absolute;
@@ -52,8 +50,7 @@ body>main>article:nth-child(2) {
 
 
 /* Réglage de l'image */
-body>main>article:nth-child(2)>img {
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(2)>img {   
     display: block;
     width: 150px;
     height: 150px;
@@ -82,7 +79,6 @@ body>main>article:nth-child(2):hover>div {
 
 /* Position, Taille du texte */
 body>main>article:nth-child(2)>div>a>p {
-    /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
@@ -101,8 +97,7 @@ body>main>article:nth-child(3) {
 }
 
 /* Réglage de l'image */
-body>main>article:nth-child(3)>img {
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(3)>img {   
     display: block;
     width: 150px;
     height: 150px;
@@ -131,7 +126,6 @@ body>main>article:nth-child(3):hover>div {
 
 /* Position, Taille du texte */
 body>main>article:nth-child(3)>div a>p {
-    /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
@@ -150,8 +144,7 @@ body>main>article:nth-child(4) {
 }
 
 /* Réglage de l'image */
-body>main>article:nth-child(4)>img {
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(4)>img {    
     display: block;
     width: 150px;
     height: 150px;
@@ -180,7 +173,6 @@ body>main>article:nth-child(4):hover>div {
 
 /* Position, Taille du texte */
 body>main>article:nth-child(4)>div>a>p {
-    /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
@@ -200,8 +192,7 @@ body>main>article:nth-child(5) {
 
 
 /* Réglage de l'image */
-body>main>article:nth-child(5)>img {
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(5)>img {  
     display: block;
     width: 150px;
     height: 150px;
@@ -230,7 +221,6 @@ body>main>article:nth-child(5):hover>div {
 
 /* Position, Taille du texte */
 body>main>article:nth-child(5)>div>a>p {
-    /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
@@ -249,8 +239,7 @@ body>main>article:nth-child(6) {
 }
 
 /* Réglage de l'image */
-body>main>article:nth-child(6)>img {
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(6)>img {   
     display: block;
     width: 150px;
     height: 150px;
@@ -279,7 +268,6 @@ body>main>article:nth-child(6):hover>div {
 
 /* Position, Taille du texte */
 body>main>article:nth-child(6)>div>a>p {
-    /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
@@ -300,7 +288,6 @@ body>main>article:nth-child(7) {
 
 /* Réglage de l'image */
 body>main>article:nth-child(7)>img {
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 150px;
     height: 150px;
@@ -329,7 +316,6 @@ body>main>article:nth-child(7):hover>div {
 
 /* Position, Taille du texte */
 body>main>article:nth-child(7)>div>a>p {
-    /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
@@ -350,7 +336,6 @@ body>main>article:nth-child(8) {
 
 /* Réglage de l'image */
 body>main>article:nth-child(8)>img {
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
     display: block;
     width: 150px;
     height: 150px;
@@ -379,7 +364,6 @@ body>main>article:nth-child(8):hover>div {
 
 /* Position, Taille du texte */
 body>main>article:nth-child(8)>div>a>p {
-    /* Couleur à rechoisir en fonction du background et de l'image */
     color: white;
     font-family: 'Calibri';
     position: absolute;
