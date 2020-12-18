@@ -10,5 +10,9 @@ body {
 
 /*---------------Ajustement de l'espace vide avec l'article----------*/
 article:nth-child(9) {
-    height: 350vh;    
+    height: 350vh;
+}
+
+footer>p {
+    text-align: justify;
 }

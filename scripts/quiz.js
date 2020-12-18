@@ -7,7 +7,7 @@ let Q3s = document.getElementsByName("Q3");
 let Q4s = document.getElementsByName("Q4");
 let Q5s = document.getElementsByName("Q5");
 
-/* Alerte */
+/* Vérification que le quizz est bien répondu sur chaques questions */
 function check() {
   let value = "";
   let value2 = "";
@@ -67,6 +67,8 @@ function check() {
     }
   }
 }
+
+// Comptage des points
 
 function testQ(value, value2, value3, value4, value5) {
   const result = document.querySelector("input+p");

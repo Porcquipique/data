@@ -1,6 +1,6 @@
 /* Ajustement du titre */
 article:last-child>h1 {
-    color: rgb(0,170,255);
+    color: rgb(0, 170, 255);
     padding-left: 5%;
     font-family: 'press_start_2pregular';
     text-align: center;
@@ -8,19 +8,19 @@ article:last-child>h1 {
 }
 
 /* Ajustement des Questions */
-article:last-child > fieldset > legend > h3 {
-    color: rgb(0,170,255);
+article:last-child>fieldset>legend>h3 {
+    color: rgb(0, 170, 255);
     font-family: 'Calibri';
 }
 
 /* Ajustement des Réponses */
-article:last-child > fieldset>p {
+article:last-child>fieldset>p {
     color: white;
     font-family: 'Calibri';
 }
 
 /* Ajustement du Logo */
-article:last-child > img {
+article:last-child>img {
     width: 150px;
     height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
@@ -28,12 +28,12 @@ article:last-child > img {
 }
 
 /* Ajustement des fieldsets */
-article:last-child > fieldset > legend {
+article:last-child>fieldset>legend {
     text-align: center;
 }
 
 /* Ajustement du Résultat */
-article:last-child > p:last-child {
+article:last-child>p:last-child {
     border: white 2px solid;
     text-align: center;
     font-size: 200%;
@@ -43,7 +43,7 @@ article:last-child > p:last-child {
 }
 
 /* Ajustement du Bouton */
-article:last-child > input {
+article:last-child>input {
     margin-top: 5%;
     margin-left: 44%;
     margin-bottom: 5%;
@@ -57,5 +57,5 @@ article:last-child {
     margin-right: 20%;
     background-color: hsl(219, 68%, 19%);
     border: white 1px solid;
-    padding: 5px 10px; 
+    padding: 5px 10px;
 }

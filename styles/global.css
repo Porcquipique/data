@@ -6,6 +6,7 @@
 }
 
 header>a>img {
+    margin: 1%;
     width: 5%;
     height: 5%;
 }
@@ -13,9 +14,9 @@ header>a>img {
 /* élément footer */
 footer {
     background-color: black;
-    text-align: right;
     font-family: 'Calibri';
     font-size: 12px;
+    text-align: right;
 }
 
 footer>p {
