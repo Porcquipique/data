@@ -1,0 +1,10 @@
+/*------ Background ------*/
+body {
+    background-position: 50% -10%;
+}
+
+/* Positionnement */
+body>main>article:first-child {
+    margin-top: 45%;
+    margin-left: 20%;
+}

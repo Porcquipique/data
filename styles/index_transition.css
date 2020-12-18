@@ -1,25 +1,64 @@
-/* ------------------------------------------------------- Article 1 --------------------------------------------------------- */
-/* Position, Taille de l'article */
-body > main > article{
+/* ------------------------------------------------------- Article 1 Skyblue--------------------------------------------------------- */
+body>main>article:first-child {
     position: relative;
-    width: 200px;
-    height: 200px;
-    display: inline-block;   
+    display: inline-block;
+    width: 180px;
+    height: 180px;
 }
 
 /* Réglage de l'image */
-body > main > article:first-child > a> img{
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:first-child>img {   
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: grey;
-    border
 }
 
 /* Réglage de la Transition et de son opacité */
-body > main > article:first-child > div{
+body>main>article:first-child>div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+/* Opacity du texte*/
+body>main>article:first-child:hover>div {
+    opacity: 1;
+}
+
+/* Position, Taille du texte */
+body>main>article:first-child>div>h1 {
+    color: white;
+    font-family: 'press_start_2pregular';
+    position: absolute;
+    top: 26%;
+    left: 13%;
+    font-size: 22px;
+}
+
+/* ------------------------------------------------------- Article 2 CDO--------------------------------------------------------- */
+body>main>article:nth-child(2) {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Réglage de l'image */
+body>main>article:nth-child(2)>img {   
+    display: block;
+    width: 150px;
+    height: 150px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+/* Réglage de la Transition et de son opacité */
+body>main>article:nth-child(2)>div {
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
@@ -34,44 +73,39 @@ body > main > article:first-child > div{
 }
 
 /* Opacity du texte*/
-body > main > article:first-child:hover > div{
+body>main>article:nth-child(2):hover>div {
     opacity: 1;
 }
 
 /* Position, Taille du texte */
-body > main  > article:first-child > div >p{
-    /* Couleur à rechoisir en fonction du background et de l'image */
+body>main>article:nth-child(2)>div>a>p {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 34%;
+    left: 25%;
     font-size: 20px;
 }
 
+/* ------------------------------------------------------- Article 3 DE--------------------------------------------------------- */
 
-
-/* ------------------------------------------------------- Article 2 --------------------------------------------------------- */
-/* Position, Taille de l'article */
-body > main > article{
+body>main>article:nth-child(3) {
     position: relative;
-    width: 200px;
-    height: 200px;
-    display: inline-block;   
+    display: inline-block;
+    width: 150px;
+    height: 150px;
 }
 
 /* Réglage de l'image */
-body > main > article:nth-child(2) > a> img{
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(3)>img {   
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: grey;
 }
 
 /* Réglage de la Transition et de son opacité */
-body > main > article:nth-child(2) > div{
+body>main>article:nth-child(3)>div {
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
@@ -86,43 +120,39 @@ body > main > article:nth-child(2) > div{
 }
 
 /* Opacity du texte*/
-body > main > article:nth-child(2):hover > div{
+body>main>article:nth-child(3):hover>div {
     opacity: 1;
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(2) > div >p{
-    /* Couleur à rechoisir en fonction du background et de l'image */
+body>main>article:nth-child(3)>div a>p {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 41%;
+    left: 13%;
     font-size: 20px;
 }
 
+/* ------------------------------------------------------- Article 4 DM--------------------------------------------------------- */
 
-/* ------------------------------------------------------- Article 3 --------------------------------------------------------- */
-/* Position, Taille de l'article */
-body > main > article{
+body>main>article:nth-child(4) {
     position: relative;
-    width: 200px;
-    height: 200px;
-    display: inline-block;   
+    display: inline-block;
+    width: 150px;
+    height: 150px;
 }
 
 /* Réglage de l'image */
-body > main > article:nth-child(3) > a> img{
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(4)>img {    
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: grey;
 }
 
 /* Réglage de la Transition et de son opacité */
-body > main > article:nth-child(3) > div{
+body>main>article:nth-child(4)>div {
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
@@ -137,43 +167,40 @@ body > main > article:nth-child(3) > div{
 }
 
 /* Opacity du texte*/
-body > main > article:nth-child(3):hover > div{
+body>main>article:nth-child(4):hover>div {
     opacity: 1;
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(3) > div >p{
-    /* Couleur à rechoisir en fonction du background et de l'image */
+body>main>article:nth-child(4)>div>a>p {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 42%;
+    left: 12%;
     font-size: 20px;
 }
 
+/* ------------------------------------------------------- Article 5 DPO--------------------------------------------------------- */
 
-/* ------------------------------------------------------- Article 4 --------------------------------------------------------- */
-/* Position, Taille de l'article */
-body > main > article{
+body>main>article:nth-child(5) {
     position: relative;
-    width: 200px;
-    height: 200px;
-    display: inline-block;   
+    display: inline-block;
+    width: 150px;
+    height: 150px;
 }
 
+
 /* Réglage de l'image */
-body > main > article:nth-child(4) > a> img{
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(5)>img {  
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: grey;
 }
 
 /* Réglage de la Transition et de son opacité */
-body > main > article:nth-child(4) > div{
+body>main>article:nth-child(5)>div {
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
@@ -188,43 +215,39 @@ body > main > article:nth-child(4) > div{
 }
 
 /* Opacity du texte*/
-body > main > article:nth-child(4):hover > div{
+body>main>article:nth-child(5):hover>div {
     opacity: 1;
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(4) > div >p{
-    /* Couleur à rechoisir en fonction du background et de l'image */
+body>main>article:nth-child(5)>div>a>p {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 24%;
+    left: 27%;
     font-size: 20px;
 }
 
+/* ------------------------------------------------------- Article 6 MLE--------------------------------------------------------- */
 
-/* ------------------------------------------------------- Article 5 --------------------------------------------------------- */
-/* Position, Taille de l'article */
-body > main > article{
+body>main>article:nth-child(6) {
     position: relative;
-    width: 200px;
-    height: 200px;
-    display: inline-block;   
+    display: inline-block;
+    width: 150px;
+    height: 150px;
 }
 
 /* Réglage de l'image */
-body > main > article:nth-child(5) > a> img{
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(6)>img {   
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: grey;
 }
 
 /* Réglage de la Transition et de son opacité */
-body > main > article:nth-child(5) > div{
+body>main>article:nth-child(6)>div {
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
@@ -239,43 +262,40 @@ body > main > article:nth-child(5) > div{
 }
 
 /* Opacity du texte*/
-body > main > article:nth-child(5):hover > div{
+body>main>article:nth-child(6):hover>div {
     opacity: 1;
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(5) > div >p{
-    /* Couleur à rechoisir en fonction du background et de l'image */
+body>main>article:nth-child(6)>div>a>p {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 26%;
+    left: 26%;
     font-size: 20px;
 }
 
+/* ------------------------------------------------------- Article 7 DE--------------------------------------------------------- */
 
-/* ------------------------------------------------------- Article 6 --------------------------------------------------------- */
-/* Position, Taille de l'article */
-body > main > article{
+body>main>article:nth-child(7) {
     position: relative;
-    width: 200px;
-    height: 200px;
-    display: inline-block;   
+    display: inline-block;
+    width: 150px;
+    height: 150px;
 }
 
+
 /* Réglage de l'image */
-body > main > article:nth-child(6) > a> img{
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(7)>img {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: grey;
 }
 
 /* Réglage de la Transition et de son opacité */
-body > main > article:nth-child(6) > div{
+body>main>article:nth-child(7)>div {
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
@@ -290,43 +310,40 @@ body > main > article:nth-child(6) > div{
 }
 
 /* Opacity du texte*/
-body > main > article:nth-child(6):hover > div{
+body>main>article:nth-child(7):hover>div {
     opacity: 1;
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(6) > div >p{
-    /* Couleur à rechoisir en fonction du background et de l'image */
+body>main>article:nth-child(7)>div>a>p {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 41%;
+    left: 15%;
     font-size: 20px;
 }
 
+/* ------------------------------------------------------- Article 8 Quiz--------------------------------------------------------- */
 
-/* ------------------------------------------------------- Article 7 --------------------------------------------------------- */
-/* Position, Taille de l'article */
-body > main > article{
+body>main>article:nth-child(8) {
     position: relative;
-    width: 200px;
-    height: 200px;
-    display: inline-block;   
+    display: inline-block;
+    width: 150px;
+    height: 150px;
 }
 
+
 /* Réglage de l'image */
-body > main > article:nth-child(7) > a> img{
-    /* Ne pas oublier de régler la taille de l'image en fonction du background principal */
+body>main>article:nth-child(8)>img {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: grey;
 }
 
 /* Réglage de la Transition et de son opacité */
-body > main > article:nth-child(7) > div{
+body>main>article:nth-child(8)>div {
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
@@ -341,17 +358,16 @@ body > main > article:nth-child(7) > div{
 }
 
 /* Opacity du texte*/
-body > main > article:nth-child(7):hover > div{
+body>main>article:nth-child(8):hover>div {
     opacity: 1;
 }
 
 /* Position, Taille du texte */
-body > main  > article:nth-child(7) > div >p{
-    /* Couleur à rechoisir en fonction du background et de l'image */
+body>main>article:nth-child(8)>div>a>p {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     position: absolute;
-    top: 30%;
-    left: 30%;   
+    top: 42%;
+    left: 36%;
     font-size: 20px;
 }

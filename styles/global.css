@@ -1,34 +1,36 @@
-*{
-    margin : 0;
+/*------------------------------------Le saviez-vous ? Les homards goûtent avec leur pattes ?-----------------------------------------------*/
+
+* {
+    margin: 0;
     box-sizing: border-box;
 }
 
-header > a> img{
-    width: 10%;
-    height: 10%;
-}
-
-/* Background + Image probable */
-body{
-    background-color: hsl(219, 68%, 19%);   
+header>a>img {
+    width: 5%;
+    height: 5%;
 }
 
 /* élément footer */
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+footer {
     background-color: black;
     text-align: right;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;   
+    font-family: 'Calibri';
+    font-size: 12px;
 }
 
-footer>p{
-    color:white ;
+footer>p {
+    color: white;
 }
 
-footer>img{
+footer>a>img {
     width: 60px;
     height: 60px;
+}
+
+@font-face {
+    font-family: 'press_start_2pregular';
+    src: url('../medias/fonts/pressstart2p-webfont.woff2') format('woff2'),
+        url('../medias/fonts/pressstart2p-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
