@@ -1,0 +1,19 @@
+/*------ Background ------*/
+body {
+    background: url(../medias/images/background/back_metier.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 8%;
+    background-color: hsl(219, 68%, 19%);
+}
+
+/* Positionnement */
+body>main>article:first-child {
+    margin-top: 103%;
+    margin-left: 10%;
+}
+
+/*Texte Compétence : L 4 | C 2  */
+article:nth-child(3) {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
