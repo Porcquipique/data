@@ -61,15 +61,8 @@ article:last-child {
     grid-row: 6;
 }
 
-
-/*---------------Ajustement de l'espace vide avec l'article----------*/
+/* -----------------Positionnement de l'article vide----------------- */
 article:nth-child(9) {
     grid-column: 1/7;
     grid-row: 5;
-
-    height: 430vh;
-    width: 210.3vh;
-    background: url(../medias/images/background/background_fil.jpg);
-    background-color: hsl(219, 68%, 19%);
-    background-repeat: no-repeat;
 }

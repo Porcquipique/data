@@ -33,10 +33,10 @@ article:last-child > fieldset > legend {
 }
 
 /* Ajustement du Fond */
+/*
 article:last-child {
-    background-color: hsl(219, 68%, 19%);
-    
-}
+    background-color: hsl(219, 68%, 19%); 
+}*/
 
 /* Ajustement du Résultat */
 article:last-child > p:last-child {
@@ -55,4 +55,13 @@ article:last-child > input {
     margin-bottom: 5%;
     font-family: 'Calibri';
     font-size: 200%;
+}
+
+/* Ajustement pour centrer l'article */
+article:last-child {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: hsl(219, 68%, 19%);
+    border: white 1px solid;
+    padding: 5px 10px; 
 }
