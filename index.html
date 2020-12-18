@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+
+
+
+<!------Bonjour, saviez-vous que Obélix et Astérix, leur nom vient des mathématiques où les signes Multipliés-----------------------------------------
+  ------et Divisés étaient encore sous la forme respective de * et ÷ s'appelle astérisque et obèle, ce qui a donné Astérix et Obélix----------------->
+
+
+  <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="LEBREC, AGUILAR, VIVOT, PINARD, ARSLAN, LANNOY">
@@ -12,7 +17,7 @@
   <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/index_grid.css">
   <link rel="stylesheet" href="styles/index_transition.css">
-  <link rel="stylesheet" href="styles/quiz.css">
+  <link rel="stylesheet" href="styles/index_quiz.css">
   <!-- Script -->
   <script type="text/javascript" src="scripts/script.js" defer></script>
   <script type="text/javascript" src="scripts/index.js" defer></script>
@@ -23,7 +28,7 @@
 
 <body>
 
-  <header>
+  <header id="haut_page">
     <!-- Logo cliquable s'il y'en a un -->
     <a href="index.html"><img src="medias/images/LOGO_data.png" alt="Logo de la data"></a>
   </header>
@@ -37,6 +42,7 @@
       </div>
     </article>
 
+
     <!-- ART 2 --- Logo cliquable CDO -->
     <article>
       <img src="medias/images/metier/CDO.png" alt="Logo CDO">
@@ -46,6 +52,7 @@
         </a>
       </div>
     </article>
+
 
     <!-- ART 3 --- Logo cliquable Data Engineer -->
     <article>
@@ -57,6 +64,7 @@
       </div>
     </article>
 
+
     <!-- ART 4 ---Logo cliquable Data Manager -->
     <article>
       <img src="medias/images/metier/DM.png" alt="Logo data manager">
@@ -66,6 +74,7 @@
         </a>
       </div>
     </article>
+
 
     <!-- ART 5 --- Logo cliquable DPO -->
     <article>
@@ -77,6 +86,7 @@
       </div>
     </article>
 
+
     <!-- ART 6 --- Logo cliquable Machine Learning Engineer -->
     <article>
       <img src="medias/images/metier/ML.png" alt="Logo machine learning engineer">
@@ -86,6 +96,7 @@
         </a>
       </div>
     </article>
+
 
     <!-- ART 7 ---Logo cliquable Data Scientist -->
     <article>
@@ -97,6 +108,7 @@
       </div>
     </article>
 
+
     <!-- ART 8 ---Logo cliquable Quiz -->
     <article>
       <img src="medias/images/quiz.png" alt="Logo quiz">
@@ -107,14 +119,22 @@
       </div>
     </article>
 
-    <!-------------------------------- Partie QUIZ ---------------------------------->
 
+    <!----- Article permettant de faire l'espace vide (dans index_grid.CSS) ------>
+    <article>
+    </article>
+
+
+    <!-------------------------------- Partie QUIZ ---------------------------------->
     <article id="quiz">
-      <h1><img src="../medias/images/quiz.png" alt="logo quiz">Testez vos connaissances sur les data sciences</h1>
+      <img src="medias/images/quiz.png" alt="logo quiz">
+      <h1>Testez vos connaissances sur les data sciences</h1>
+
+    <!-------------------------------- Question 1 ---------------------------------->
       <fieldset>
         <legend>
           <h3>Qu'est-ce que la data science ?</h3>
-        </legend>
+        </legend>        
         <p>
           <input type="radio" name="Q1" value="1" id="Q1A">
           <label for="Q1A">Ensemble structuré et organisé permettant le stockage de grandes quantités d’informations
@@ -129,6 +149,8 @@
           <label for="Q1C">L’extraction de connaissance d’ensembles de données</label>
         </p>
       </fieldset>
+
+      <!-------------------------------- Question 2 ---------------------------------->
       <fieldset>
         <legend>
           <h3>Quel est le domaine qui n'intervient pas dans les datas sciences ?</h3>
@@ -154,6 +176,8 @@
           <label for="Q2E">L'informatique</label>
         </p>
       </fieldset>
+
+      <!-------------------------------- Question 3 ---------------------------------->
       <fieldset>
         <legend>
           <h3>Quelle appellation des analystes de données n'existe pas ?</h3>
@@ -175,6 +199,8 @@
           <label for="Q3D">Data Miner</label>
         </p>
       </fieldset>
+
+      <!-------------------------------- Question 4 ---------------------------------->
       <fieldset>
         <legend>
           <h3>Qui a créé le framework logiciel Hadoop, très populaire dans le monde du Big Data ?</h3>
@@ -188,6 +214,8 @@
           <label for="Q4B">Doug Cutting</label>
         </p>
       </fieldset>
+
+      <!-------------------------------- Question 5 ---------------------------------->
       <fieldset>
         <legend>
           <h3>Combien de gigaoctets y a-t-il dans un exaoctet ?</h3>
@@ -205,7 +233,9 @@
           <label for="Q5C">1 Milliard</label>
         </p>
       </fieldset>
-      <input type="button" value="Envoyer" id="button" onClick="check()">
+
+      <input type="button" value="Envoyer" id="button" onClick="check()">  
+
       <!-- Résultat js -->
       <p></p>
     </article>
@@ -215,9 +245,8 @@
     <!-- Copyright -->
     <p>Copyright MMI-Dijon Equipe 12</p>
     <!-- Image permettant de remonter -->
-    <a href="index.html"><img src="medias/images/fleche_haut.png" alt="flèche remontant en haut"></a>
+    <a href="#haut_page"><img src="medias/images/fleche_haut.png" alt="flèche remontant en haut"></a>
   </footer>
 
 </body>
-
 </html>

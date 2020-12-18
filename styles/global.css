@@ -1,3 +1,5 @@
+/*------------------------------------Le saviez-vous ? Les homards goûtent avec leur pattes ?-----------------------------------------------*/
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +14,7 @@ header>a>img {
 footer {
     background-color: black;
     text-align: right;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     font-size: 12px;
 }
 

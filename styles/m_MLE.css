@@ -1,0 +1,14 @@
+/*------ Background ------*/
+body {
+    background-position: 50% -20%;
+}
+
+/* Positionnement */
+body>main>article:first-child {
+    margin-top: 25%;
+    margin-left: 15%;
+}
+
+main {
+    grid-template-rows: 10% repeat(2, 1fr) repeat(4, auto);
+}
