@@ -4,6 +4,7 @@
 }
 
 header>a>img {
+    margin : 1%;
     width: 5%;
     height: 5%;
 }

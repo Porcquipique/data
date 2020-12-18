@@ -1,9 +1,12 @@
+/*------ Background ------*/
 body {
-    background: url(../medias/images/background/Fiche\ métier\ background.png);
+    background: url(../medias/images/background/back_metier.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 10%;
+    background-position: 50% -5%;
     background-color: hsl(219, 68%, 19%);
 }
+
+/*------ Image fiche métier ------*/
 
 body>main>article:first-child {
     width: 150px;
@@ -17,6 +20,55 @@ body>main>article:first-child > img {
     height: 100%;
 }
 
+/* Positionnement */
+body>main>article:first-child {
+    margin-top: 55%;
+    margin-left: 20%;
+}
+
+/*------ Image infographie ------*/
+
+body>main>article:nth-of-type(6)>img:nth-of-type(2),
+body>main>article:nth-of-type(7)>img:nth-of-type(2) {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*------ Localisation ------*/
+
+body>main>article:nth-of-type(7)>img:nth-of-type(2){
+    width: 500px;
+    height: 500px;   
+}
+
+/*------ Salaire ------*/
+
+body>main>article:nth-of-type(6)>img:nth-of-type(2) {
+    width: 500px;
+    height: 300px;
+}
+/*------ Icone ------*/
+
+body>main>article:nth-of-type(5)>img:first-child,
+body>main>article:nth-of-type(6)>img:first-child,
+body>main>article:nth-of-type(7)>img:first-child {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+body>main>article:nth-of-type(5)>img:first-child,
+body>main>article:nth-of-type(6)>img:first-child,
+body>main>article:nth-of-type(7)>img:first-child {
+    width: 50px;
+    height: 50px;
+}
+
+/*------ Gestion du texte ------*/
+
 h1, h2, h3 {
     color: hsl(200,100%,50%);
     font-family: 'press_start_2pregular';
@@ -28,6 +80,13 @@ p, li {
     font-family: 'calibri';
 }
 
+/*body>main>article:nth-of-type(5)>h2,
+body>main>article:nth-of-type(6)>h2 {
+    float: left;
+}*/
+
+/*------ Lien ------*/
+
 a:visited {
     color:  hsl(200,100%,50%);
 }
@@ -36,7 +95,11 @@ a:hover {
     color: white;
 }
 
-/* Syle source encadré */
+/*------ Source ------*/
 article:nth-child(8) {
-    border: 1px black solid;
+    margin-bottom: 20px;
+}
+
+article:nth-child(8) > ul > li{
+    list-style: none;
 }
